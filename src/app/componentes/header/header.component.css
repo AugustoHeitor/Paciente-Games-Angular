@@ -1,0 +1,196 @@
+header{
+    background-color: white;
+    width: 100%;
+    height: 4vw;
+    display: flex;
+}
+
+header a{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#logo{
+    position: relative;
+    margin-left: 0.8vw;
+    width: 20vw;
+    height: 3vw;
+}
+
+#logo:hover{
+    cursor: pointer;
+    background-color: rgba(21, 252, 0, 0.589);
+    border-radius: 1vw;
+    transition: 0.3s;
+}
+
+#pesq{
+    display: block;
+    margin: auto;
+}
+
+#pesq input{
+    position: relative;
+    padding: 3px;
+    height: 2vw;
+    border-radius: 0.8vw;
+    width: 15vw;
+    border: 2px solid black;
+}
+
+#lista{
+    position: absolute;
+    width: 15vw;
+    height:20vw;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#lista li a{
+    border: 1px solid #ddd; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 10px; 
+    color: black; 
+    display: block; 
+}
+
+.loginCadastro{
+    position: relative;
+    margin-right: 10vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 0.4vw;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#user{
+    display: none;
+}
+
+
+#menu{
+    position: relative;
+    width: 3vw;
+    height: 3vw;
+    margin-right: 3vw;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+#favoritos{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10vw;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+#favoritos:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+
+    header{
+        height: 10vw;
+    }
+    
+    #logo{
+        margin-left: 0.8vw;
+        margin-right: 20vw;
+        width: 40VW;
+        height: 10vw;
+    }
+    
+    
+    #pesq{
+       display: none;
+    }
+
+    .loginCadastro{
+       display: none;
+    }
+
+
+    #user{
+        display: inline;
+        margin: 12px 1px 1px 1px;
+        width: 9vw;
+        height: 7vw;
+    }
+
+    
+    #menu{
+        width: 9vw;
+        height: 9vw;
+        margin-left: 10vw;
+    }
+    
+    #favoritos{
+        width: 9vw;
+        height: 9vw;
+    }
+
+    #logo:hover{
+        cursor: pointer;
+        background-color: white;
+        border-radius: 0;
+        transition: 0.3s;
+    }
+   
+}
+
+
+@media screen and (max-width:400px){
+
+
+    header{
+        height: 10vw;
+    }
+    
+    #logo{
+        margin-left: 0.8vw;
+        margin-right: 10vw;
+        width: 40VW;
+        height: 10vw;
+    }
+    
+    
+    #pesq{
+       display: none;
+    }
+
+    .loginCadastro{
+       display: none;
+    }
+
+    #user{
+        display: inline;
+        margin: 5px 1px 1px 1px;
+        margin-right: 10vw;
+        width: 9vw;
+        height: 7vw;
+    }
+    
+    #menu{
+        width: 9vw;
+        height: 9vw;
+        margin-left: 2vw;
+    }
+    
+    #favoritos{
+        width: 9vw;
+        height: 9vw;
+    }
+
+}
